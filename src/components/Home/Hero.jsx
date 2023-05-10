@@ -19,11 +19,11 @@ const Hero = () => {
           textAlign={"center"}
         >
           <Text as={"span"}>
-            Hello I'm{" "}
+            Hola, yo soy{" "}
             <Text as="span" color={"purple"}>
-              Alexis De León
+              Javier Alvarado
             </Text>{" "}
-            a
+            un
           </Text>
           <br />{" "}
           <Text
@@ -40,9 +40,9 @@ const Hero = () => {
               bottom: 0,
             }}
           >
-            Web Developer
+            estudiante de ingenieria
           </Text>{" "}
-          Based in Mexico
+           en computacion
         </Heading>
         <Text
           fontSize={{ base: "1rem", md: "3xl", lg: "4xl" }}

@@ -11,7 +11,6 @@ const Logo = ({open}) => {
       borderRadius='full' 
       objectFit={'cover'}
       boxShadow={'-1px 2px 1px #5800FF'} 
-      src={uvg} 
       top={6}
       alt='logo' />
     </Box>

@@ -1,6 +1,6 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import HeroContainer from "./HeroContainer";
-import { SocialLinks } from "../footer/SocialLinks";
+import { SocialLinks } from "../footer/SocialLinks"
 import React from "react";
 
 const Hero = () => {

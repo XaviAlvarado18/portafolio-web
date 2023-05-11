@@ -1,7 +1,9 @@
 import React,{Suspense,lazy} from "react";
 import Header from "./components/Navbar/Header";
-import Logo from "./components/Navbar/Logo";
 import Loader from "./components/loader";
+
+
+const Home = lazy(() => import("./layouts/Home"));
 
 const App =()=>(
     <>
@@ -11,11 +13,7 @@ const App =()=>(
                 <Loader />
             }
         >
-            <Header>
-                <h1>Título del encabezado</h1>
-                <p>Descripción del encabezado</p>
-            </Header>
-                <Logo open={true} />
+            <Home/>
         </Suspense>
     </div></>
 );

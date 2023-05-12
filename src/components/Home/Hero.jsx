@@ -15,7 +15,7 @@ const Hero = () => {
         gap={8}
       >
         <Heading
-          fontSize={{ base: "3xl", md: "5xl", lg: "7xl" }}
+          fontSize={{ base: "1xl", md: "3xl", lg: "5xl" }}
           textAlign={"center"}
         >
           <Text as={"span"}>
@@ -23,7 +23,7 @@ const Hero = () => {
             <Text as="span" color={"purple"}>
               Javier Alvarado
             </Text>{" "}
-            un
+            
           </Text>
           <br />{" "}
           <Text
@@ -40,9 +40,9 @@ const Hero = () => {
               bottom: 0,
             }}
           >
-            estudiante de ingenieria
+            estudiante de Ingeniería en Ciencia de la Computación
           </Text>{" "}
-           en computacion
+          y Tecnologías de la Información
         </Heading>
         <Text
           fontSize={{ base: "1rem", md: "3xl", lg: "4xl" }}

@@ -1,4 +1,4 @@
-import uvg from '../../img/uvg.png'
+import uvg from '../../img/uvege.jpg'
 import { Box, Image } from '@chakra-ui/react'
 import React from 'react';
 
@@ -12,6 +12,7 @@ const Logo = ({open}) => {
       objectFit={'cover'}
       boxShadow={'-1px 2px 1px #5800FF'} 
       top={6}
+      src={uvg}
       alt='logo' />
     </Box>
   )

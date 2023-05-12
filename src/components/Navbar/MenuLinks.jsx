@@ -41,6 +41,9 @@ const MenuLinks = ({ open, toggle, scrollToSection }) => {
           </MenuItem>
         ))}
         <ButtonPrimary
+          href={
+            "https://drive.google.com/file/d/1psLOPRLa6UMZdjR6flHY2p-oQN2kO7x8/view?usp=sharing"
+          }
           rounded={"full"}
           bg={"purple"}
           color={"white"}

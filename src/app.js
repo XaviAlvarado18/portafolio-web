@@ -6,6 +6,9 @@ import theme from "../theme/theme";
 
 
 const Home = lazy(() => import("./layouts/Home"));
+const About = lazy(() => import("./layouts/about"));
+const Skills = lazy(() => import("./layouts/Skills"));
+const Projects = lazy(() => import("./layouts/Projects"));
 
 const App =()=>(
     <>
@@ -17,6 +20,9 @@ const App =()=>(
                 }
             >
                 <Home/>
+                <About/>
+                <Skills />
+                <Projects/>
             </Suspense>
         </div>
     </ChakraProvider>

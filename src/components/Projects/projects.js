@@ -14,7 +14,7 @@ const projectsData = [
     title: 'Granja El Ceibillal', 
     technologies: ['React Native', 'Flask'],
     src: images.elceibillal, 
-    url: 'https://images-browser.vercel.app/',
+    url: 'https://drive.google.com/file/d/1INBjLyNbjpwxjDpivcC3mVARGhrC-gam/view?usp=sharing',
     code: 'https://github.com/Dahernandezsilve/proyectomgafrontend.git'
   
   },

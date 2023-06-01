@@ -9,6 +9,8 @@ const Home = lazy(() => import("./layouts/Home"));
 const About = lazy(() => import("./layouts/about"));
 const Skills = lazy(() => import("./layouts/Skills"));
 const Projects = lazy(() => import("./layouts/Projects"));
+const Contact = lazy(() => import("./layouts/Contact"));
+const Footer = lazy(() => import("./layouts/Footer"));
 
 const App =()=>(
     <>
@@ -23,6 +25,8 @@ const App =()=>(
                 <About/>
                 <Skills />
                 <Projects/>
+                <Contact/>
+                <Footer/>
             </Suspense>
         </div>
     </ChakraProvider>

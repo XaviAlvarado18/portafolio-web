@@ -1,8 +1,17 @@
 import { Image, Text, Box, Container, Flex } from "@chakra-ui/react";
 import foto from "../../img/me.jpg";
-import React from "react";
+import React, {useState, useEffect} from "react";
+import texts from '../../texts/español.json'
 
 const AboutInfo = () => {
+
+  const [introduccion, setIntroduccion] = useState('');
+
+  useEffect(() => {
+    // Simulamos la carga del JSON
+    setIntroduccion(texts.introduccion);
+  }, []);
+
   return (
     <Container
       rounded={8}
@@ -45,30 +54,8 @@ const AboutInfo = () => {
               fontSize={{ base: "1rem", md: "xl" }}
               color={"white"}
               fontWeight={"normal"}
+              dangerouslySetInnerHTML={{ __html: introduccion }}
             >
-              ¡Mucho gusto! {" "}
-              <Text as={"span"} fontWeight={"bold"} color={"yellow"}>
-                Mi nombre es Kristopher Javier Alvarado López
-              </Text>{" "}
-              estudiante de tercer año de la carrera de{" "}
-              <Text as={"span"} fontWeight={"bold"} color={"yellow"}>
-                Ingeniería en Ciencia de la Computación y Tecnologías de la Información
-              </Text>{" "}
-              en la Universidad del Valle de Guatemala. <br />
-              Tengo conocimientos en varios lenguajes de programación, desde programación estructurada,
-              programación orientada a objetos, estructuras de datos, programación de plataformas móviles,
-              programación de de microprocesadores, bases de datos y{" "}
-              <Text as={"span"} fontWeight={"bold"} color={"yellow"}>
-                programación de páginas web. <br/>
-              </Text>
-              <br/> Tambien cuento con experiencia como {" "}
-              <Text as={"span"} fontWeight={"bold"} color={"blue.400"}>
-              Analista de Infraestructura y Soporte <br/>
-              </Text>
-               en Sitecpro, dando soporte a agencias bancarias que utilizan todos nuestros sistemas{" "}
-              <Text as={"span"} fontWeight={"bold"} color={"yellow"}>
-                Total Image Expedientes, Total Image Admin, CREA, Control y Cuadre etc.
-              </Text>
             </Text>
           </Box>
         </Flex>

@@ -2,6 +2,7 @@ import { Box } from '@chakra-ui/react'
 import Hero from '../components/Home/Hero'
 import { motion } from 'framer-motion'
 import Navbar from '../components/Navbar/Navbar'
+import NavbarFooter from '../components/Navbar/NavbarFooter'
 import React from 'react'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       >
         <Hero />
       </motion.div>
+      <NavbarFooter/>
     </Box>
   )
 }

@@ -21,6 +21,9 @@ import reactnative from './skillset/reactnative.png'
 import flask from './skillset/flask.png'
 import oracledb from './skillset/oracledb.png'
 import webpack from './skillset/webpack.png'
+import fastapi from './skillset/FastAPI.png'
+import sqlserver from './skillset/SQLServer.png'
+import neo4j from './skillset/neo4j.png'
 
 //PROYECTOS
 import medicos from './Projects/medicos.png'
@@ -28,7 +31,7 @@ import elceibillal from './Projects/elceibillal.png'
 import memory from './Projects/memory.png'
 import calculator from './Projects/calculator.png'
 import amazon from './Projects/amazon.png'
-
+import tilinesbook from './Projects/tilinesbook.png'
 
 export const images = {
   postgre,
@@ -57,5 +60,9 @@ export const images = {
   elceibillal,
   memory,
   calculator,
-  amazon
+  amazon,
+  fastapi,
+  sqlserver,
+  neo4j,
+  tilinesbook
 }

@@ -16,7 +16,6 @@ const Home = () => {
       >
         <Hero />
       </motion.div>
-      <NavbarFooter/>
     </Box>
   )
 }

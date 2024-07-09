@@ -53,12 +53,18 @@ export const skills = [
     id: 17, alt: 'PostgreSql', image: images.postgre, desc: 'Database.', cat: 'Backend'
   },
   {
-    id: 18, alt: 'Flask', image: images.flask, desc: 'Python framework oriented for Frontend and Backend', cat: 'Frontend'
+    id: 18, alt: 'FastAPI', image: images.fastapi, desc: 'Python framework oriented for Backend', cat: 'Backend'
   },
   {
     id: 19, alt: 'Oracle DB', image: images.oracledb, desc: 'Database Oracle', cat: 'Backend'
   },
   {
     id: 20, alt: 'Webpack', image: images.webpack, desc: 'Modular Bundler', cat: 'Tools'
+  },
+  {
+    id: 21, alt: 'SQL Server', image: images.sqlserver, desc: 'Database', cat: 'Backend'
+  },
+  {
+    id: 22, alt: 'Neo4j', image: images.neo4j, desc: 'No Relational Database', cat: 'Backend'
   }
 ]

@@ -41,7 +41,14 @@ const projectsData = [
       src: images.amazon, 
       url: 'https://react-32c5d.web.app/',
       code: 'https://github.com/XaviAlvarado18/RAmazon.git'
-    }
+    },
+  {
+    id: 6,
+    title: 'Social Media',
+    technologies: ['ReactJS','ExpressJS','Neo4j'],
+    src: images.tilinesbook,
+    code: 'https://github.com/MarioGuerra21008/Chat_ProjectBD2-Neo4j.git'
+  }
 
 ]
 export default projectsData
